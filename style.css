@@ -1,0 +1,35 @@
+h1{
+    color: rgb(105, 9, 170);
+}
+/*
+* {
+    border:solid;
+}
+*/
+.Header{
+    background-color: rgb(111, 207, 207);
+    display:flex;
+    justify-content: space-between;
+}
+.Description{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+}
+.Projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Footer{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color: rgb(179, 148, 219);
+}
+p,h2{
+    text-align: center;
+    color:rgb(4, 68, 2);
+}

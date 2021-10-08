@@ -1,5 +1,5 @@
 h1{
-    color: rgb(105, 9, 170);
+    color:#6909B4;
 }
 /*
 * {
@@ -7,7 +7,7 @@ h1{
 }
 */
 .Header{
-    background-color: rgb(111, 207, 207);
+    background-color:#6FCFCf;
     display:flex;
     justify-content: space-between;
 }
@@ -27,9 +27,9 @@ h1{
     justify-content: flex-end;
 }
 body{
-    background-color: rgb(179, 148, 219);
+    background-color:#B394DB;
 }
 p,h2{
     text-align: center;
-    color:rgb(4, 68, 2);
+    color:#044402;
 }

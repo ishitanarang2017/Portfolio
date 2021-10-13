@@ -10,6 +10,7 @@ h1{
     background-color:#6FCFCf;
     display:flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 .Description{
     display:flex;
@@ -32,4 +33,34 @@ body{
 p,h2{
     text-align: center;
     color:#044402;
+}
+.Menu{
+    margin-right: 30px;
+}
+.Menu a{
+    margin-left: 30px;
+}
+a:link{
+    color: rgb(248, 220, 220);
+}
+a:visited{
+    color:rgb(12, 70, 29);
+}
+.Item{
+    position:relative;
+}
+.Item p{
+    position:absolute;
+    top:50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+.Item:hover p{
+    opacity:1;
+    transform:scale(1.2);
+}
+.Item:hover img{
+    opacity:0.33;
+    transform:scale(0.8);
 }
